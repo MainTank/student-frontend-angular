@@ -2,6 +2,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 body {
     padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 table {
@@ -19,4 +20,27 @@ table {
     .container-fluid {
         max-width: 1024px;
     }
+}
+
+img {
+    margin-top: -20px;
+    width: 140px;
+    height: 140px;
+}
+
+.navbar {
+    background-color: #8B0000;
+}
+
+.jumbotron {
+    background-image: url(assets/images/stock.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #8B0000;   
+    height: 500px;
+}
+
+.jumbotron div {
+    background-color: rgba(134, 108, 108, 0.5)
 }
